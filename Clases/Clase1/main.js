@@ -49,6 +49,9 @@ const PI = 3.14;
 // document.write("hola Mundo")
 // document.write(nombre)
 
+// Puede que con defer no te funcione bien document.write, por cómo funciona defer que carga en conjunto con el HTML
+// Y lo podés solucionar más sencillo poniendo tu script abajo, antes de que cierre el body, sin defer
+
 // prompt 
 // el input ingresa como str
 
@@ -56,3 +59,4 @@ let input = prompt("Ingrese número")
 console.log(input)
 
 // el ';' no es necesario con js
+
