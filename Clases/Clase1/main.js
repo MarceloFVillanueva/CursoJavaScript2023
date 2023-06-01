@@ -31,21 +31,28 @@ const PI = 3.14;
     confirm()
 */
 
-// console.log
+// // console.log
 
-console.log(1)
-console.log("hola")
-console.log(1+1)
+// console.log(1)
+// console.log("hola")
+// console.log(1+1)
 
-// alert
+// // alert
 
-alert(1)
-alert("hola Mundo")
-alert(nombre)
+// alert(1)
+// alert("hola Mundo")
+// alert(nombre)
 
-// Para que no molesten tanto los alert en la página se puede mostrar en el documento (20:16)
+// // Para que no molesten tanto los alert en la página se puede mostrar en el documento (20:16)
 
-document.write(1)
-document.write("hola Mundo")
-document.write(nombre)
+// document.write(1)
+// document.write("hola Mundo")
+// document.write(nombre)
 
+// prompt 
+// el input ingresa como str
+
+let input = prompt("Ingrese número")
+console.log(input)
+
+// el ';' no es necesario con js
