@@ -53,10 +53,46 @@ const PI = 3.14;
 // Y lo podés solucionar más sencillo poniendo tu script abajo, antes de que cierre el body, sin defer
 
 // prompt 
-// el input ingresa como str
+// el input ingresa como cadena de caracteres
 
-let input = prompt("Ingrese número")
-console.log(input)
+let input1 = prompt("Ingrese número1")
+console.log(input1)
+
+let input2 = prompt("Ingrese número2")
+console.log(input2)
 
 // el ';' no es necesario con js
 
+// Operadores
+//      Matemáticos
+
+/*
+    + suma
+    - resta
+    * multiplicación
+    / división
+    % resto
+*/
+
+//      De cadena
+
+/*
+    + unión (concatenar)
+*/
+
+console.log(input1 + input2)        // concatenacion (dos cadenas de caracteres)
+console.log(input1 + input2 + 100)  // concatenacion (cadenas y números) (coerción de tipo)
+
+// forma de arreglar la coerción
+
+// no recomendable ya que si se agrega un FLOAT se pierde la información al guardarse como int
+let input3 = parseInt(prompt("Ingrese número 3"))
+console.log(input3)
+
+// mejora pero no es muy recomendable
+let input4 = parseFloat(prompt("Ingrese número 4"))
+console.log(input4)
+
+// lo más recomendable (en caso de ingresa algo que no sea un número sale como NaN)
+let input5 = Number(prompt("Ingrese número 5"))
+console.log(input5)
