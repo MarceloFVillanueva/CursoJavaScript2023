@@ -11,3 +11,22 @@ h1, p, a {
     line-height:.8;
     color: white;
 }
+
+.important{
+    color: red;
+}
+
+div p{
+    color: black;
+}
+
+.div {
+    border: 5px black double;
+}
+
+.footer {
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 5px;
+}
